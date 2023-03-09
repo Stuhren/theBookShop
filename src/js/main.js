@@ -27,17 +27,7 @@ async function start() {
 
 
 function displayBooks() {
-
     // filter according to hobby and call displayPersons
-    `
-    <div class="row" id="startText">
-        <div class="col offset-lg-1 col-lg-10 offset-xl-2 col-xl-8">
-          <h2>Welcome!</h2>
-          <p>If you would like to filter the books, please use the navigation bar above!</p>
-        </div>
-      </div>
-    `
-
     let filteredBooks = books.filter(
 
         ({ hobby }) => chosenHobbyFilter === 'all'
@@ -46,11 +36,11 @@ function displayBooks() {
 
     );
 
-    let htmlArray = filteredBooks.map(({
+    let htmlArray = filteredBooks.map(({ 
 
         id, title, author, description, category, price, image
 
-    }) => `
+    }) =>  `
     <div class="col-sm-6 col-lg-4 col-xl-3" book-id="${id}">
         <img class="book" src="${image}">
         <h6>${title}</h1>
