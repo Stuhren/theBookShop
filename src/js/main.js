@@ -52,7 +52,8 @@ function displayPersons() {
         <h6>${title}</h1>
         <p>${author}</p>
         <p style="margin-top: -10px; font-weight: bold;">${price} SEK</p>
-
+        <button class="button" type="button">More Info</button>
+        <button class="button" type="button">Add To Cart</button>
     </div>
   `);
 
