@@ -7,7 +7,7 @@ import * as bootstrap from 'bootstrap'
 import { getJSON } from './utils/getJSON';
 
 
-let persons,
+let books,
 
     chosenHobbyFilter = 'all',
 
@@ -18,19 +18,27 @@ let persons,
 
 async function start() {
 
-    persons = await getJSON('/json/books.json');
+    books = await getJSON('/json/books.json');
 
-    displayPersons();
+    displayBooks();
 
 }
 
 
 
-function displayPersons() {
+function displayBooks() {
 
     // filter according to hobby and call displayPersons
+    `
+    <div class="row" id="startText">
+        <div class="col offset-lg-1 col-lg-10 offset-xl-2 col-xl-8">
+          <h2>Welcome!</h2>
+          <p>If you would like to filter the books, please use the navigation bar above!</p>
+        </div>
+      </div>
+    `
 
-    let filteredPersons = persons.filter(
+    let filteredBooks = books.filter(
 
         ({ hobby }) => chosenHobbyFilter === 'all'
 
@@ -38,28 +46,80 @@ function displayPersons() {
 
     );
 
-    if (chosenSortOption === 'Last name') { sortByLastName(filteredPersons); }
-
-    if (chosenSortOption === 'Age') { sortByAge(filteredPersons); }
-
-    let htmlArray = filteredPersons.map(({
+    let htmlArray = filteredBooks.map(({
 
         id, title, author, description, category, price, image
 
     }) => `
-    <div class="col-xl-3">
+    <div class="col-sm-6 col-lg-4 col-xl-3" book-id="${id}">
         <img class="book" src="${image}">
         <h6>${title}</h1>
         <p>${author}</p>
         <p style="margin-top: -10px; font-weight: bold;">${price} SEK</p>
-        <button class="button" type="button">More Info</button>
-        <button class="button" type="button">Add To Cart</button>
+        <button class="buttonInfo btn btn-success" type="button">More Info</button>
+        <button class="buttonPrice btn btn-success" data-price="${price}" type="button">Add To Cart</button>
     </div>
   `);
 
     document.querySelector('.bookList').innerHTML = htmlArray.join('');
+    // add event listeners to all button elements
+document.querySelectorAll('.buttonInfo').forEach((button) => {
+    button.addEventListener('click', (event) => {
+        let idElement = event.target.closest('[book-id]');
+    if (idElement) {
+      let id = idElement.getAttribute('book-id');
+      displayInformation(id);
+    } else {
+      console.error('Unable to find the book-id.');
+    }
+    });
+  });
 
+  document.querySelectorAll('.buttonPrice').forEach((button) => {
+    button.addEventListener('click', (event) => {
+        let idElement = event.target.closest('[book-id]');
+    if (idElement) {
+      let id = idElement.getAttribute('book-id');
+      alert(`PRICE You clicked a button with ID ${id}`);
+    } else {
+      console.error('Unable to find the book-id.');
+    }
+    });
+  });
 }
 
+function displayInformation(bookID) {
+    let correctBook = books.filter(({ id }) => bookID === id).shift();
+    
+    if (correctBook) {
+        let htmlArray = `
+            <div class="col-xxl-12" book-id="${correctBook.id}">
+                <img class="book" src="${correctBook.image}">
+                <h6>${correctBook.title}</h6>
+                <p>${correctBook.author}</p>
+                <h5>Category</h5>
+                <p>${correctBook.category}</p>
+                <h5>Description</h5>
+                <p>${correctBook.description}</p>
+                <p style="margin-top: -10px; font-weight: bold;">${correctBook.price} SEK</p>
+                <button class="buttonGoBack btn btn-success" type="button">Go Back</button>
+                <button class="buttonInfoCart btn btn-success" data-price="${correctBook.price}" type="button">Add To Cart</button>
+            </div>
+        `;
+        document.querySelector('.bookList').innerHTML = htmlArray;
+    } else {
+        document.querySelector('.bookList').innerHTML = "No book found with the given ID";
+    }
+
+    // add event listeners to all button elements
+document.querySelectorAll('.buttonGoBack').forEach((button) => {
+    button.addEventListener('click', displayBooks);
+  });
+
+  document.querySelectorAll('.buttonInfoCart').forEach((button) => {
+    button.addEventListener('click', () => {
+        alert(`PRICE You clicked a button with ID ${bookID}`)})
+    });
+}
 
 start();
