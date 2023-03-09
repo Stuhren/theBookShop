@@ -1,0 +1,29 @@
+{
+  "name": "thebookshop",
+  "version": "1.0.0",
+  "description": "A bookstore on the web!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stuhren/theBookShop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stuhren/theBookShop/issues"
+  },
+  "homepage": "https://github.com/Stuhren/theBookShop#readme",
+  "devDependencies": {
+    "sass": "^1.58.3",
+    "vite": "^4.1.4"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3"
+  }
+}
