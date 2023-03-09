@@ -1,2 +1,115 @@
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
+@import 'google-fonts';
+@import 'sticky-footer';
+
+
+// Add extra top margin to the first row
+// in the main element
+// because our navbar is fixed
+main .row:first-of-type {
+  margin-top: 80px;
+}
+
+// Some styling for photos
+// the height in viewports widths
+// helps keeping nice proportions
+.photo {
+  // 100% of parent element (col):s width
+  width: 100%;
+  // make the image the same height as it width
+  // (a new property, added to css in 2022)
+  aspect-ratio: 1 / 1;
+  // do not scale the image unproportionally
+  // instead cut off part of it,
+  // (same prinicple as background-size: cover
+  // for background images)
+  object-fit: cover;
+}
+
+// A 'fake' logo
+.logo {
+  color: rgb(221, 221, 29);
+  font-family: 'Audiowide';
+  display: inline-block;
+  margin-top: -5px;
+}
+
+// More margin/space between the logo and
+// the menu when not hamburger-menu
+// (on bigger screens)
+@media only screen and (min-width: 992px) {
+  .logo {
+    margin-right: 40px;
+  }
+}
+
+.nav-link {
+  font-family: 'Patua One';
+}
+
+
+#startText {
+  font-family: 'Merriweather';
+}
+
+.div {
+  display: inline-flex;
+}
+
+.footer {
+  padding-top: 20px;
+}
+
+.button {
+  background-color: #1d1d1c;
+  color: rgb(221, 221, 29);
+  font-family: 'Patua One';
+  font-size: 20px;
+  margin-top: 20px;
+  width: 170px;
+  height: 50px;
+
+}
+
+.nav-text{
+  color: white;
+  font-family: 'Patua One';
+  margin-top: 8px;
+}
+
+.book{
+  height: 300px;
+  width: 220px;
+  margin-top: 40px;
+}
+
+.bookInformation {
+  font-family: 'Merriweather';
+  font-size: 18px;
+  color: black;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+.bookName {
+  font-family: 'Merriweather';
+  font-size: 18px;
+  color: black;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+.bg-primary {
+    background-color: #1d1d1c!important;
+}
+
+body {
+    margin-top: 100px;
+    text-align: center;
+}
+
+h6 {
+    font-style: italic;
+}

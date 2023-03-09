@@ -1,0 +1,182 @@
+[
+    {
+      "id": 1,
+      "title": "Responsive design with Bootstrap",
+      "author": "Cristiano Ronaldo",
+      "description": "Lorem ipsum / or your text",
+      "category": "CSS",
+      "price": 399,
+      "image":"/pictures/galaxy-book.png"
+    },
+    {
+      "id": 2,
+      "title": "HTML - an introduction",
+      "author": "Emil Sylvegård",
+      "description": "Lorem ipsum / or your text",
+      "category": "HTML",
+      "price": 599,
+      "image":"/pictures/leather-book.jpg"
+    },
+    {
+      "id": 3,
+      "title": "CSS - an introduction",
+      "author": "Felix Kjellberg",
+      "description": "Lorem ipsum / or your text",
+      "category": "CSS",
+      "price": 299,
+      "image":"/pictures/svart-bok.png"
+    },
+    {
+      "id": 4,
+      "title": "JavaScript - an introduction",
+      "author": "Zlatan Ibrahimovic",
+      "description": "Lorem ipsum / or your text",
+      "category": "JavaScript",
+      "price": 499,
+      "image":"/pictures/brun-bok.jpg"
+    },
+    {
+      "id": 5,
+      "title": "CSS - Intermediate",
+      "author": "Felix Kjellberg",
+      "description": "Lorem ipsum / or your text",
+      "category": "CSS",
+      "price": 299,
+      "image":"/pictures/röd-bild.jpg"
+    },
+    {
+      "id": 6,
+      "title": "CSS - Advanced",
+      "author": "Felix Kjellberg",
+      "description": "Lorem ipsum / or your text",
+      "category": "CSS",
+      "price": 299,
+      "image":"/pictures/brun1-bok.jpg"
+    },
+    {
+      "id": 7,
+      "title": "CSS - Ultimate",
+      "author": "Felix Kjellberg",
+      "description": "Lorem ipsum / or your text",
+      "category": "CSS",
+      "price": 299,
+      "image":"/pictures/monka.jpg"
+    },
+    {
+      "id": 8,
+      "title": "HTML - Intermediate",
+      "author": "Emil Sylvegård",
+      "description": "Lorem ipsum / or your text",
+      "category": "HTML",
+      "price": 599,
+      "image":"/pictures/peppa.jpg"
+    },
+    {
+      "id": 9,
+      "title": "HTML - Advanced",
+      "author": "Emil Sylvegård",
+      "description": "Lorem ipsum / or your text",
+      "category": "HTML",
+      "price": 599,
+      "image":"/pictures/yes.jpg"
+    },
+    {
+      "id": 10,
+      "title": "HTML - Utlimate",
+      "author": "Emil Sylvegård",
+      "description": "Lorem ipsum / or your text",
+      "category": "HTML",
+      "price": 599,
+      "image":"/pictures/oppa.jpg"
+    },
+    {
+      "id": 11,
+      "title": "HTML for beginners",
+      "author": "Emil Sylvegård",
+      "description": "Lorem ipsum / or your text",
+      "category": "HTML",
+      "price": 399,
+      "image":"/pictures/man.jpg"
+    },
+    {
+      "id": 12,
+      "title": "JavaScript - Intermediate",
+      "author": "Zlatan Ibrahimovic",
+      "description": "Lorem ipsum / or your text",
+      "category": "JavaScript",
+      "price": 499,
+      "image":"/pictures/pog.jpg"
+    },
+    {
+      "id": 13,
+      "title": "JavaScript - Advanced",
+      "author": "Zlatan Ibrahimovic",
+      "description": "Lorem ipsum / or your text",
+      "category": "JavaScript",
+      "price": 499,
+      "image":"/pictures/grass.jpg"
+    },
+    {
+      "id": 14,
+      "title": "JavaScript - Ultimate",
+      "author": "Zlatan Ibrahimovic",
+      "description": "Lorem ipsum / or your text",
+      "category": "JavaScript",
+      "price": 499,
+      "image":"/pictures/pepe.jpg"
+    },
+    {
+      "id": 15,
+      "title": "JavaScript For Beginners",
+      "author": "Zlatan Ibrahimovic",
+      "description": "Lorem ipsum / or your text",
+      "category": "JavaScript",
+      "price": 299,
+      "image":"/pictures/what.jpg"
+    },
+    {
+      "id": 16,
+      "title": "UX - An Introduction",
+      "author": "Björn Gustafsson",
+      "description": "Lorem ipsum / or your text",
+      "category": "UX",
+      "price": 249,
+      "image":"/pictures/jungle.jpg"
+    },
+    {
+      "id": 17,
+      "title": "UX - How To Use It",
+      "author": "Björn Gustafsson",
+      "description": "Lorem ipsum / or your text",
+      "category": "UX",
+      "price": 249,
+      "image":"/pictures/king.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Importance of UX",
+      "author": "Björn Gustafsson",
+      "description": "Lorem ipsum / or your text",
+      "category": "UX",
+      "price": 299,
+      "image":"/pictures/queen.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Practical UX",
+      "author": "Björn Gustafsson",
+      "description": "Lorem ipsum / or your text",
+      "category": "UX",
+      "price": 399,
+      "image":"/pictures/no.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Enhancing the UX",
+      "author": "Björn Gustafsson",
+      "description": "Lorem ipsum / or your text",
+      "category": "UX",
+      "price": 499,
+      "image":"/pictures/swag.jpeg"
+    }
+  ]
