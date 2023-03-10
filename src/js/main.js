@@ -30,7 +30,15 @@ async function start() {
 
 
 function displayBooks() {
-  
+    // Remove the message element and button element from the DOM
+    const messageElement = document.querySelector('.shopping-cart-message');
+    const buttonElement = document.querySelector('.buttonGoBack');
+    if (messageElement) {
+      messageElement.remove();
+    }
+    if (buttonElement) {
+      buttonElement.remove();
+    }
 
     // filter according to hobby and call displayPersons
     let filteredBooks = books.filter(
@@ -83,11 +91,6 @@ function displayBooks() {
     }
     });
   });
-
-  const messageElement = document.querySelector('.shopping-cart-message');
-  const backButton = document.querySelector('.buttonGoBack');
-  messageElement.parentNode.removeChild(messageElement);
-  backButton.parentNode.removeChild(backButton)
 }
 
 function displayInformation(bookID) {
@@ -149,11 +152,12 @@ function displayCart() {
   // Add message element to the page at the top
   const messageElement = document.createElement('p');
   messageElement.innerText = 'Shopping cart total: 0 SEK';
+  messageElement.classList.add('shopping-cart-message'); // add class
   messageElement.style.font = 'Merriweather';
   messageElement.style.fontSize = "30px";
   messageElement.style.fontWeight = "bold";
   document.querySelector('.bookList').insertAdjacentElement('beforebegin', messageElement);
-
+  
   //Add a go back button to keep it from refreshing
   const backButton = document.createElement('button');
   backButton.classList.add('buttonGoBack', 'btn', 'btn-success');
@@ -175,8 +179,7 @@ function displayCart() {
 
 document.querySelectorAll('.shoppingButton').forEach((button) => {
   button.addEventListener('click', () => {
-    displayCart(); 
-    
+    displayCart();
   });
 });
 
