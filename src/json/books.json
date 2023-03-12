@@ -3,7 +3,7 @@
       "id": "1",
       "title": "Responsive design with Bootstrap",
       "author": "Cristiano Ronaldo",
-      "description": "Lorem ipsum / or your text",
+      "description": "Bootstrap is an open source framework that is mainly being used to create websites and web apps. The Bootstrap Framework is built on HTML, CSS and JavaScript which are all common languages for developing websites and web apps. Just as this title suggests, bootstrap helps with making the website and web apps responsive. Responsive design is crucial to create a great user experience and that is why bootstrap was developed. It should not matter if the user is using the web app or the website on the phone or using full screen on a regular computer monitor, the experience should be just as good. That is the entire purpose of bootstrap, detecting the users screen size and adjusting the page accordingly to create a good user experience. If the website or web app does not respond accordingly to the screen size the user will be greeted by a page with both horizontal scrolling, vertical scrolling, and all of the content on the page in complete disarray. As previously mentioned, the user experience is crucial for the user to keep using the web app or website that you as a creator are providing. The greatest advantage of using bootstrap is that it is a predefined grid system which means that the creator only needs to insert the code into the grid system to get it started. This book will be the perfect guide for anyone who is getting started with web development and wants to create a good user experience from the start.",
       "category": "CSS",
       "price": 399,
       "image":"/pictures/galaxy-book.png"
@@ -12,7 +12,7 @@
       "id": "2",
       "title": "HTML - an introduction",
       "author": "Emil Sylvegård",
-      "description": "Lorem ipsum / or your text",
+      "description": "HTML is an acronym for HyperText Markup Language and can be used to design  websites and web apps. HTML is a combination of hypertext and markup language with hypertext being the link between different pages and markup language that defines the structure of the website and web app. The language is created in a way so that it works as small notes for the computer that the computer then can manipulate into the correct structure by using different tags and elements. The language itself is very readable for humans, but also easy for the computer to understand thanks to the languages annotation mentioned earlier. So why should you buy this book? One of the best features of HTML is that it works on all browsers which in turn gives you as a creator an opportunity to reach out to more people. It is also a very good language to start out with when it comes to designing websites and web apps because of the easy syntax and easy to read and follow along with. You can also combine HTML with other languages such as CSS and JavaScript to further enhance the user experience by changing the user interface, adding functions to the page and coordinating some backend like databases for storing information and data. This book will be the perfect introduction for a person looking to get started with HTML and web development. Combine this with some of our other frontend developing books and you should have a great foundation for creating websites and web apps.",
       "category": "HTML",
       "price": 599,
       "image":"/pictures/leather-book.jpg"
@@ -21,7 +21,7 @@
       "id": "3",
       "title": "CSS - an introduction",
       "author": "Felix Kjellberg",
-      "description": "Lorem ipsum / or your text",
+      "description": "CSS is an acronym for Cascading Style Sheets and as the name suggests, it is used to style your website and web apps. CSS is the tool that brings life to your project. HTML is the foundation of the project, but in order to personalize it, cater it towards the right audience and give the visitors a smooth experience CSS will come in handy. Not only can you use CSS for changing color, size, fonts and layout of text, you can also add animations to enhance the look of the entire page. This book is the perfect choice for the developer who has just started working with HTML that wants that extra finishing touch. The differences between websites is often in the style rather than the structure. All web pages have headers, paragraphs, buttons, but what makes them unique is the actual design. The good thing with CSS is that it is fairly easy to implement on an already existing HTML-project as well. All you need to do is divide the HTML into classes and then you can apply customization for the entire class inside of the CSS file. It is never too late to start designing your projects and it is never too late to start using CSS. Buy this book now and learn all you need to know to get started with the design of your project. Take your frontend development to the next level with the help of CSS.",
       "category": "CSS",
       "price": 299,
       "image":"/pictures/svart-bok.png"
@@ -30,7 +30,7 @@
       "id": "4",
       "title": "JavaScript - an introduction",
       "author": "Zlatan Ibrahimovic",
-      "description": "Lorem ipsum / or your text",
+      "description": "JavaScript is a programming language that you can use to implement features on a website or web app. JavaScript is commonly used alongside HTML and CSS to further enhance the project. JavaScript is a flexible language since it can both operate on the frontend side as well as the backend. You can do everything from implementing functionality such as a “Add to Cart”-button or even categorize and filter the content on the website and web app on the frontend side of things. On the backend side you can use JavaScript to connect to databases, write and read information from a database, register accounts, encrypt data and set up servers. All of these things are possible by creating code that reacts to events on the website or the web app. JavaScript is also a good language to learn since a lot of programmers use JavaScript in today's development. JavaScript is also fairly easy to learn with a relatively user-friendly syntax and declaration. One of the good things about JavaScript when working in a frontend environment is that it is fully compatible with the languages CSS and HTML which are widely used to create websites and web apps. Buy this book now to get a full introduction on how to start your first project on both the frontend as well as backend side. Take your project to the next level with the help of JavaScript.",
       "category": "JavaScript",
       "price": 499,
       "image":"/pictures/brun-bok.jpg"
@@ -39,7 +39,7 @@
       "id": "5",
       "title": "CSS - Intermediate",
       "author": "Felix Kjellberg",
-      "description": "Lorem ipsum / or your text",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo turpis, tempor in lacus a, suscipit sagittis purus. Mauris leo elit, finibus quis ligula non, hendrerit molestie enim. Vivamus quis molestie justo. Mauris et accumsan felis. Maecenas ac leo varius, imperdiet eros a, auctor diam. Sed consectetur sollicitudin congue. Sed vehicula rutrum varius. Donec in semper justo, a vestibulum dui. Phasellus eget malesuada enim. Sed varius convallis enim vitae ullamcorper. Etiam cursus varius mattis. Nam lobortis rutrum porta. Curabitur consectetur mi velit, dignissim auctor ipsum pulvinar eget. Maecenas convallis non libero sed dignissim.",
       "category": "CSS",
       "price": 299,
       "image":"/pictures/röd-bild.jpg"
@@ -48,7 +48,7 @@
       "id": "6",
       "title": "CSS - Advanced",
       "author": "Felix Kjellberg",
-      "description": "Lorem ipsum / or your text",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo turpis, tempor in lacus a, suscipit sagittis purus. Mauris leo elit, finibus quis ligula non, hendrerit molestie enim. Vivamus quis molestie justo. Mauris et accumsan felis. Maecenas ac leo varius, imperdiet eros a, auctor diam. Sed consectetur sollicitudin congue. Sed vehicula rutrum varius. Donec in semper justo, a vestibulum dui. Phasellus eget malesuada enim. Sed varius convallis enim vitae ullamcorper. Etiam cursus varius mattis. Nam lobortis rutrum porta. Curabitur consectetur mi velit, dignissim auctor ipsum pulvinar eget. Maecenas convallis non libero sed dignissim.",
       "category": "CSS",
       "price": 299,
       "image":"/pictures/brun1-bok.jpg"
@@ -57,7 +57,7 @@
       "id": "7",
       "title": "CSS - Ultimate",
       "author": "Felix Kjellberg",
-      "description": "Lorem ipsum / or your text",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo turpis, tempor in lacus a, suscipit sagittis purus. Mauris leo elit, finibus quis ligula non, hendrerit molestie enim. Vivamus quis molestie justo. Mauris et accumsan felis. Maecenas ac leo varius, imperdiet eros a, auctor diam. Sed consectetur sollicitudin congue. Sed vehicula rutrum varius. Donec in semper justo, a vestibulum dui. Phasellus eget malesuada enim. Sed varius convallis enim vitae ullamcorper. Etiam cursus varius mattis. Nam lobortis rutrum porta. Curabitur consectetur mi velit, dignissim auctor ipsum pulvinar eget. Maecenas convallis non libero sed dignissim.",
       "category": "CSS",
       "price": 299,
       "image":"/pictures/monka.jpg"
@@ -66,7 +66,7 @@
       "id": "8",
       "title": "HTML - Intermediate",
       "author": "Emil Sylvegård",
-      "description": "Lorem ipsum / or your text",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo turpis, tempor in lacus a, suscipit sagittis purus. Mauris leo elit, finibus quis ligula non, hendrerit molestie enim. Vivamus quis molestie justo. Mauris et accumsan felis. Maecenas ac leo varius, imperdiet eros a, auctor diam. Sed consectetur sollicitudin congue. Sed vehicula rutrum varius. Donec in semper justo, a vestibulum dui. Phasellus eget malesuada enim. Sed varius convallis enim vitae ullamcorper. Etiam cursus varius mattis. Nam lobortis rutrum porta. Curabitur consectetur mi velit, dignissim auctor ipsum pulvinar eget. Maecenas convallis non libero sed dignissim.",
       "category": "HTML",
       "price": 599,
       "image":"/pictures/peppa.jpg"
@@ -75,7 +75,7 @@
       "id": "9",
       "title": "HTML - Advanced",
       "author": "Emil Sylvegård",
-      "description": "Lorem ipsum / or your text",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo turpis, tempor in lacus a, suscipit sagittis purus. Mauris leo elit, finibus quis ligula non, hendrerit molestie enim. Vivamus quis molestie justo. Mauris et accumsan felis. Maecenas ac leo varius, imperdiet eros a, auctor diam. Sed consectetur sollicitudin congue. Sed vehicula rutrum varius. Donec in semper justo, a vestibulum dui. Phasellus eget malesuada enim. Sed varius convallis enim vitae ullamcorper. Etiam cursus varius mattis. Nam lobortis rutrum porta. Curabitur consectetur mi velit, dignissim auctor ipsum pulvinar eget. Maecenas convallis non libero sed dignissim.",
       "category": "HTML",
       "price": 599,
       "image":"/pictures/yes.jpg"
@@ -84,7 +84,7 @@
       "id": "10",
       "title": "HTML - Utlimate",
       "author": "Emil Sylvegård",
-      "description": "Lorem ipsum / or your text",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo turpis, tempor in lacus a, suscipit sagittis purus. Mauris leo elit, finibus quis ligula non, hendrerit molestie enim. Vivamus quis molestie justo. Mauris et accumsan felis. Maecenas ac leo varius, imperdiet eros a, auctor diam. Sed consectetur sollicitudin congue. Sed vehicula rutrum varius. Donec in semper justo, a vestibulum dui. Phasellus eget malesuada enim. Sed varius convallis enim vitae ullamcorper. Etiam cursus varius mattis. Nam lobortis rutrum porta. Curabitur consectetur mi velit, dignissim auctor ipsum pulvinar eget. Maecenas convallis non libero sed dignissim.",
       "category": "HTML",
       "price": 599,
       "image":"/pictures/oppa.jpg"
@@ -93,7 +93,7 @@
       "id": "11",
       "title": "HTML for beginners",
       "author": "Emil Sylvegård",
-      "description": "Lorem ipsum / or your text",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo turpis, tempor in lacus a, suscipit sagittis purus. Mauris leo elit, finibus quis ligula non, hendrerit molestie enim. Vivamus quis molestie justo. Mauris et accumsan felis. Maecenas ac leo varius, imperdiet eros a, auctor diam. Sed consectetur sollicitudin congue. Sed vehicula rutrum varius. Donec in semper justo, a vestibulum dui. Phasellus eget malesuada enim. Sed varius convallis enim vitae ullamcorper. Etiam cursus varius mattis. Nam lobortis rutrum porta. Curabitur consectetur mi velit, dignissim auctor ipsum pulvinar eget. Maecenas convallis non libero sed dignissim.",
       "category": "HTML",
       "price": 399,
       "image":"/pictures/man.jpg"
@@ -102,7 +102,7 @@
       "id": "12",
       "title": "JavaScript - Intermediate",
       "author": "Zlatan Ibrahimovic",
-      "description": "Lorem ipsum / or your text",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo turpis, tempor in lacus a, suscipit sagittis purus. Mauris leo elit, finibus quis ligula non, hendrerit molestie enim. Vivamus quis molestie justo. Mauris et accumsan felis. Maecenas ac leo varius, imperdiet eros a, auctor diam. Sed consectetur sollicitudin congue. Sed vehicula rutrum varius. Donec in semper justo, a vestibulum dui. Phasellus eget malesuada enim. Sed varius convallis enim vitae ullamcorper. Etiam cursus varius mattis. Nam lobortis rutrum porta. Curabitur consectetur mi velit, dignissim auctor ipsum pulvinar eget. Maecenas convallis non libero sed dignissim.",
       "category": "JavaScript",
       "price": 499,
       "image":"/pictures/pog.jpg"
@@ -111,7 +111,7 @@
       "id": "13",
       "title": "JavaScript - Advanced",
       "author": "Zlatan Ibrahimovic",
-      "description": "Lorem ipsum / or your text",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo turpis, tempor in lacus a, suscipit sagittis purus. Mauris leo elit, finibus quis ligula non, hendrerit molestie enim. Vivamus quis molestie justo. Mauris et accumsan felis. Maecenas ac leo varius, imperdiet eros a, auctor diam. Sed consectetur sollicitudin congue. Sed vehicula rutrum varius. Donec in semper justo, a vestibulum dui. Phasellus eget malesuada enim. Sed varius convallis enim vitae ullamcorper. Etiam cursus varius mattis. Nam lobortis rutrum porta. Curabitur consectetur mi velit, dignissim auctor ipsum pulvinar eget. Maecenas convallis non libero sed dignissim.",
       "category": "JavaScript",
       "price": 499,
       "image":"/pictures/grass.jpg"
@@ -120,7 +120,7 @@
       "id": "14",
       "title": "JavaScript - Ultimate",
       "author": "Zlatan Ibrahimovic",
-      "description": "Lorem ipsum / or your text",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo turpis, tempor in lacus a, suscipit sagittis purus. Mauris leo elit, finibus quis ligula non, hendrerit molestie enim. Vivamus quis molestie justo. Mauris et accumsan felis. Maecenas ac leo varius, imperdiet eros a, auctor diam. Sed consectetur sollicitudin congue. Sed vehicula rutrum varius. Donec in semper justo, a vestibulum dui. Phasellus eget malesuada enim. Sed varius convallis enim vitae ullamcorper. Etiam cursus varius mattis. Nam lobortis rutrum porta. Curabitur consectetur mi velit, dignissim auctor ipsum pulvinar eget. Maecenas convallis non libero sed dignissim.",
       "category": "JavaScript",
       "price": 499,
       "image":"/pictures/pepe.jpg"
@@ -129,7 +129,7 @@
       "id": "15",
       "title": "JavaScript For Beginners",
       "author": "Zlatan Ibrahimovic",
-      "description": "Lorem ipsum / or your text",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo turpis, tempor in lacus a, suscipit sagittis purus. Mauris leo elit, finibus quis ligula non, hendrerit molestie enim. Vivamus quis molestie justo. Mauris et accumsan felis. Maecenas ac leo varius, imperdiet eros a, auctor diam. Sed consectetur sollicitudin congue. Sed vehicula rutrum varius. Donec in semper justo, a vestibulum dui. Phasellus eget malesuada enim. Sed varius convallis enim vitae ullamcorper. Etiam cursus varius mattis. Nam lobortis rutrum porta. Curabitur consectetur mi velit, dignissim auctor ipsum pulvinar eget. Maecenas convallis non libero sed dignissim.",
       "category": "JavaScript",
       "price": 299,
       "image":"/pictures/what.jpg"
@@ -138,7 +138,7 @@
       "id": "16",
       "title": "UX - An Introduction",
       "author": "Björn Gustafsson",
-      "description": "Lorem ipsum / or your text",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo turpis, tempor in lacus a, suscipit sagittis purus. Mauris leo elit, finibus quis ligula non, hendrerit molestie enim. Vivamus quis molestie justo. Mauris et accumsan felis. Maecenas ac leo varius, imperdiet eros a, auctor diam. Sed consectetur sollicitudin congue. Sed vehicula rutrum varius. Donec in semper justo, a vestibulum dui. Phasellus eget malesuada enim. Sed varius convallis enim vitae ullamcorper. Etiam cursus varius mattis. Nam lobortis rutrum porta. Curabitur consectetur mi velit, dignissim auctor ipsum pulvinar eget. Maecenas convallis non libero sed dignissim.",
       "category": "UX",
       "price": 249,
       "image":"/pictures/jungle.jpg"
@@ -147,7 +147,7 @@
       "id": "17",
       "title": "UX - How To Use It",
       "author": "Björn Gustafsson",
-      "description": "Lorem ipsum / or your text",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo turpis, tempor in lacus a, suscipit sagittis purus. Mauris leo elit, finibus quis ligula non, hendrerit molestie enim. Vivamus quis molestie justo. Mauris et accumsan felis. Maecenas ac leo varius, imperdiet eros a, auctor diam. Sed consectetur sollicitudin congue. Sed vehicula rutrum varius. Donec in semper justo, a vestibulum dui. Phasellus eget malesuada enim. Sed varius convallis enim vitae ullamcorper. Etiam cursus varius mattis. Nam lobortis rutrum porta. Curabitur consectetur mi velit, dignissim auctor ipsum pulvinar eget. Maecenas convallis non libero sed dignissim.",
       "category": "UX",
       "price": 249,
       "image":"/pictures/king.jpg"
@@ -156,7 +156,7 @@
       "id": "18",
       "title": "Importance of UX",
       "author": "Björn Gustafsson",
-      "description": "Lorem ipsum / or your text",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo turpis, tempor in lacus a, suscipit sagittis purus. Mauris leo elit, finibus quis ligula non, hendrerit molestie enim. Vivamus quis molestie justo. Mauris et accumsan felis. Maecenas ac leo varius, imperdiet eros a, auctor diam. Sed consectetur sollicitudin congue. Sed vehicula rutrum varius. Donec in semper justo, a vestibulum dui. Phasellus eget malesuada enim. Sed varius convallis enim vitae ullamcorper. Etiam cursus varius mattis. Nam lobortis rutrum porta. Curabitur consectetur mi velit, dignissim auctor ipsum pulvinar eget. Maecenas convallis non libero sed dignissim.",
       "category": "UX",
       "price": 299,
       "image":"/pictures/queen.jpg"
@@ -165,7 +165,7 @@
       "id": "19",
       "title": "Practical UX",
       "author": "Björn Gustafsson",
-      "description": "Lorem ipsum / or your text",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo turpis, tempor in lacus a, suscipit sagittis purus. Mauris leo elit, finibus quis ligula non, hendrerit molestie enim. Vivamus quis molestie justo. Mauris et accumsan felis. Maecenas ac leo varius, imperdiet eros a, auctor diam. Sed consectetur sollicitudin congue. Sed vehicula rutrum varius. Donec in semper justo, a vestibulum dui. Phasellus eget malesuada enim. Sed varius convallis enim vitae ullamcorper. Etiam cursus varius mattis. Nam lobortis rutrum porta. Curabitur consectetur mi velit, dignissim auctor ipsum pulvinar eget. Maecenas convallis non libero sed dignissim.",
       "category": "UX",
       "price": 399,
       "image":"/pictures/no.jpg"
@@ -174,7 +174,7 @@
       "id": "20",
       "title": "Enhancing the UX",
       "author": "Björn Gustafsson",
-      "description": "Lorem ipsum / or your text",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo turpis, tempor in lacus a, suscipit sagittis purus. Mauris leo elit, finibus quis ligula non, hendrerit molestie enim. Vivamus quis molestie justo. Mauris et accumsan felis. Maecenas ac leo varius, imperdiet eros a, auctor diam. Sed consectetur sollicitudin congue. Sed vehicula rutrum varius. Donec in semper justo, a vestibulum dui. Phasellus eget malesuada enim. Sed varius convallis enim vitae ullamcorper. Etiam cursus varius mattis. Nam lobortis rutrum porta. Curabitur consectetur mi velit, dignissim auctor ipsum pulvinar eget. Maecenas convallis non libero sed dignissim.",
       "category": "UX",
       "price": 499,
       "image":"/pictures/swag.jpeg"

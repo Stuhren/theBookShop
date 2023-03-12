@@ -105,7 +105,7 @@ function displayInformation(bookID) {
                 <h5>Category</h5>
                 <p>${correctBook.category}</p>
                 <h5>Description</h5>
-                <p>${correctBook.description}</p>
+                <p style="margin-left: 40px; margin-right: 40px; margin-bottom: 40px;">${correctBook.description}</p>
                 <p style="margin-top: -10px; font-weight: bold;">${correctBook.price} SEK</p>
                 <button class="buttonGoBack btn btn-success" type="button">Go Back</button>
                 <button class="buttonInfoCart btn btn-success" data-price="${correctBook.price}" type="button">Add To Cart</button>
