@@ -24,31 +24,24 @@
                   data-bs-toggle="dropdown" aria-expanded="false">
                   Category
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/html/pages/ux.html">UX</a></li>
-                  <li><a class="dropdown-item" href="/html/pages/html.html">Html</a></li>
-                  <li><a class="dropdown-item" href="/html/pages/css.html">Css</a></li>
-                  <li><a class="dropdown-item" href="/html/pages/javascript.html">JavaScript</a></li>
-                </ul>
+                <ul id="categoryDropdown" class="dropdown-menu">
+                  <li><a class="dropdown-item">All</a></li>
+                  <li><a class="dropdown-item">UX</a></li>
+                  <li><a class="dropdown-item">HTML</a></li>
+                  <li><a class="dropdown-item">CSS</a></li>
+                  <li><a class="dropdown-item">JavaScript</a></li>
+              </ul>
               </li>
               <li class="nav-item dropdown">
                 <a active-if-url-starts-with="/photos" class="nav-link dropdown-toggle" href="#" role="button"
                   data-bs-toggle="dropdown" aria-expanded="false">
-                  Price
+                  Filters
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/html/pages/ux.html">Ascending</a></li>
-                  <li><a class="dropdown-item" href="/html/pages/html.html">Descending</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a active-if-url-starts-with="/photos" class="nav-link dropdown-toggle" href="#" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false">
-                  Author
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/html/pages/ux.html">Ascending</a></li>
-                  <li><a class="dropdown-item" href="/html/pages/html.html">Descending</a></li>
+                <ul id="filterDropdown" class="dropdown-menu">
+                  <li><a class="dropdown-item">Price Ascending</a></li>
+                  <li><a class="dropdown-item">Price Descending</a></li>
+                  <li><a class="dropdown-item">Author Ascending</a></li>
+                  <li><a class="dropdown-item">Author Descending</a></li>
                 </ul>
               </li>
             </ul>

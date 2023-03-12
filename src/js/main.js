@@ -13,11 +13,11 @@ let totalPrice = 0;
 
 let books,
 
-    chosenHobbyFilter = 'all',
+    chosenCategoryFilter = 'All',
 
     chosenSortOption,
 
-    hobbies = [];
+    categories = [];
 
 
 async function start() {
@@ -26,6 +26,29 @@ async function start() {
 
     displayBooks();
 
+    // get all category links
+const categoryLinks = document.querySelectorAll('#categoryDropdown a');
+const filterLinks = document.querySelectorAll('#filterDropdown a');
+
+// add event listeners to each link
+categoryLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    // get the category value or the filter from the link
+    const chosenCategory = link.textContent.trim();
+     // update the chosenCategoryFilter variable
+     chosenCategoryFilter = chosenCategory;
+     // call displayBooks function to display filtered books
+     displayBooks();
+   });
+ });
+
+ filterLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    const chosenFilter = link.textContent.trim();
+    sortBooks(chosenFilter);
+    displayBooks();
+  })
+})
 }
 
 
@@ -43,11 +66,7 @@ function displayBooks() {
 
     // filter according to hobby and call displayPersons
     let filteredBooks = books.filter(
-
-        ({ hobby }) => chosenHobbyFilter === 'all'
-
-            || chosenHobbyFilter === hobby
-
+      ({ category }) => chosenCategoryFilter === 'All' || chosenCategoryFilter === category
     );
 
     let htmlArray = filteredBooks.map(({ 
@@ -123,10 +142,18 @@ document.querySelectorAll('.buttonGoBack').forEach((button) => {
   });
 
   document.querySelectorAll('.buttonInfoCart').forEach((button) => {
-    button.addEventListener('click', () => {
-        alert(`PRICE You clicked a button with ID ${bookID}`)})
+    button.addEventListener('click', (event) => {
+      let idElement = event.target.closest('[book-id]');
+      if (idElement) {
+        let id = idElement.getAttribute('book-id');
+        booksInCart.push(id)
+        alert("The book has been added to the shopping cart.")
+      } else {
+        console.error('Unable to find the book-id.');
+      }
+      });
     });
-}
+  }
 
 function displayCart() {
   booksInCart.forEach(id => {
@@ -190,6 +217,24 @@ function displayCart() {
 }
 
 
+function sortBooks(filter) {
+  switch (filter) {
+    case "Price Ascending":
+      books = books.sort((a, b) => a.price - b.price);
+      break;
+    case "Price Descending":
+      books = books.sort((a, b) => b.price - a.price);
+      break;
+    case "Author Ascending":
+      books = books.sort((a, b) => a.author.localeCompare(b.author));
+      break;
+    case "Author Descending":
+      books = books.sort((a, b) => b.author.localeCompare(a.author));
+      break;
+    default:
+      break;
+  }
+}
 
 document.querySelectorAll('.shoppingButton').forEach((button) => {
   button.addEventListener('click', () => {
