@@ -189,26 +189,29 @@ function displayCart() {
 
   });
 
+    //Add a go back button to keep it from refreshing
+    const backButton = document.createElement('button');
+    backButton.classList.add('buttonGoBack', 'btn', 'btn-success');
+    backButton.type = 'button';
+    backButton.innerText = 'Go Back';
+    const buttonContainer = document.createElement('div');
+    buttonContainer.style.display = 'flex';
+    buttonContainer.style.justifyContent = 'center';
+    buttonContainer.appendChild(backButton);
+    document.querySelector('.bookList').insertAdjacentElement('afterend', buttonContainer);
+
   // Add message element to the page at the top
   const messageElement = document.createElement('p');
   messageElement.innerText = "Shopping cart total: " + totalPrice + " SEK";
   messageElement.classList.add('shopping-cart-message'); // add class
   messageElement.style.font = 'Merriweather';
-  messageElement.style.fontSize = "30px";
+  messageElement.style.fontSize = "24px";
   messageElement.style.fontWeight = "bold";
-  document.querySelector('.bookList').insertAdjacentElement('beforebegin', messageElement);
+  document.querySelector('.bookList').insertAdjacentElement('afterend', messageElement);
   Object.keys(idCount).forEach(key => {
     delete idCount[key];
   });
   totalPrice = 0;
-  //Add a go back button to keep it from refreshing
-  const backButton = document.createElement('button');
-  backButton.classList.add('buttonGoBack', 'btn', 'btn-success');
-  backButton.type = 'button';
-  backButton.innerText = 'Go Back';
-  backButton.style.marginLeft = '40px';
-  document.querySelector('.bookList').insertAdjacentElement('beforebegin', backButton);
-
 
   // Add book elements to the page
   document.querySelector('.bookList').innerHTML = htmlArray.join('');
