@@ -7,8 +7,9 @@ import * as bootstrap from 'bootstrap'
 import { getJSON } from './utils/getJSON';
 
 let booksInCart = [];
+let idCount = {};
 let currentPrice = 0;
-
+let totalPrice = 0;
 
 let books,
 
@@ -128,11 +129,20 @@ document.querySelectorAll('.buttonGoBack').forEach((button) => {
 }
 
 function displayCart() {
+  booksInCart.forEach(id => {
+    if (id in idCount) {
+      idCount[id]++;
+    } else {
+      idCount[id] = 1;
+    }
+  });
+
   let filteredBooks = books.filter(({ id }) => booksInCart.includes(id));
 
   let htmlArray = filteredBooks.map(({ 
     id, title, author, description, category, price, image
   }) => {
+    totalPrice = totalPrice + (price * idCount[id])
     return `
     <div class="col-xl-12" book-id="${id}">
   <div class="book-details">
@@ -141,23 +151,27 @@ function displayCart() {
       <h6>${title}</h1>
       <p>${author}</p>
       <p style="font-weight: bold;">${price} SEK</p>
-      <p>Amount: 1</p>
-      <p style="font-weight: bold;">Total: ${price} SEK</p>
+      <p>Quantity: ${idCount[id]}</p>
+      <p style="font-weight: bold;">Total: ${price * idCount[id]} SEK</p>
     </div>
   </div>
 </div>
     `;
+
   });
 
   // Add message element to the page at the top
   const messageElement = document.createElement('p');
-  messageElement.innerText = 'Shopping cart total: 0 SEK';
+  messageElement.innerText = "Shopping cart total: " + totalPrice + " SEK";
   messageElement.classList.add('shopping-cart-message'); // add class
   messageElement.style.font = 'Merriweather';
   messageElement.style.fontSize = "30px";
   messageElement.style.fontWeight = "bold";
   document.querySelector('.bookList').insertAdjacentElement('beforebegin', messageElement);
-  
+  Object.keys(idCount).forEach(key => {
+    delete idCount[key];
+  });
+  totalPrice = 0;
   //Add a go back button to keep it from refreshing
   const backButton = document.createElement('button');
   backButton.classList.add('buttonGoBack', 'btn', 'btn-success');
