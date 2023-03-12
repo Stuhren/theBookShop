@@ -38,6 +38,7 @@ categoryLinks.forEach(link => {
      // update the chosenCategoryFilter variable
      chosenCategoryFilter = chosenCategory;
      // call displayBooks function to display filtered books
+     sortBooks("original")
      displayBooks();
    });
  });
@@ -46,6 +47,7 @@ categoryLinks.forEach(link => {
   link.addEventListener('click', () => {
     const chosenFilter = link.textContent.trim();
     sortBooks(chosenFilter);
+    chosenCategoryFilter = "All"
     displayBooks();
   })
 })
@@ -231,6 +233,14 @@ function sortBooks(filter) {
     case "Author Descending":
       books = books.sort((a, b) => b.author.localeCompare(a.author));
       break;
+    case "Title Ascending":
+      books = books.sort((a, b) => a.title.localeCompare(b.title));
+      break;
+    case "Title Descending":
+      books = books.sort((a, b) => b.title.localeCompare(a.title));
+      break;
+    case "original":
+      books = books.sort((a, b) => a.id - b.id);
     default:
       break;
   }
