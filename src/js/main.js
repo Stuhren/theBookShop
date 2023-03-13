@@ -8,17 +8,11 @@ import { getJSON } from './utils/getJSON';
 
 let booksInCart = [];
 let idCount = {};
-let currentPrice = 0;
 let totalPrice = 0;
 
 let books,
 
-    chosenCategoryFilter = 'All',
-
-    chosenSortOption,
-
-    categories = [];
-
+    chosenCategoryFilter = 'All'
 
 async function start() {
 
